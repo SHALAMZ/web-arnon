@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="s.css"> -->
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 70% auto;
+            width: 100vw;
+            height: 100vh;
+            gap: 10px;
+        }
+
+        .abc {
+            display: grid;
+            grid-template-rows: 60% auto;
+            gap: 10px;
+        }
+
+        .ab {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+        }
+
+        .b {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            gap: 10px;
+        }
+        .b > div{
+            background-color: yellow;
+        }
+        .a {
+            background-color: red;
+            gap: 10px;
+        }
+
+        .c {
+            background-color: green;
+            gap: 10px;
+        }
+
+        .d {
+            background-color: blue;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="abc">
+            <div class="ab">
+                <div class="a">A</div>
+                <div class="b">
+                    <div>b1</div>
+                    <div>b2</div>
+                    <div>b3</div>
+                    <div>b4</div>
+                </div>
+            </div>
+            <div class="c">d</div>
+            <!-- <div class="d">c</div> -->
+        </div>
+        <div class="d">c</div>
+    </div>
+</body>
+
+</html>

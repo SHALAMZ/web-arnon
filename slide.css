@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+    overflow-y: hidden;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(158, 242, 255);
+}
+
+.top {
+    display: flex;
+    background-color: rgb(95, 159, 255);
+    padding: 5px;
+    color: aliceblue;
+    padding-left: 50px;
+}
+
+.title {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+}
+
+.pic1 {
+    display: flex;
+}
+.moon{
+    width: 340px;
+    position: absolute;
+    top: -40px;
+    left: 320px;
+}
+.cloud1 {
+    display: inline;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    animation: 1s ease-in-out 1s infinite c1 alternate;
+}
+
+@keyframes c1 {
+    from {
+        left: 5px;
+    }
+
+    to {
+        left: 1vw;
+    }
+}
+
+.cloud2 {
+    display: inline;
+    top: 45px;
+    height: 200px;
+    width: 300px;
+    padding: 97px;
+    position: absolute;
+    animation: 2s ease-in-out 1s infinite c2 alternate;
+}
+
+@keyframes c2 {
+    from {
+        left: 200px;
+    }
+
+    to {
+        left: 150px;
+    }
+}
+.cloud3 {
+    display: inline;
+    height: 50px;
+    width: 100px;
+    padding: 75px;
+    position: absolute;
+    left: 500px;
+    animation: 2s ease-in-out 1s infinite c3 alternate;
+}
+
+@keyframes c3 {
+    from {
+        left: 500px;
+    }
+
+    to {
+        left: 525px;
+    }
+}
+.cloud4 {
+    display: inline;
+    height: 150px;
+    width: 200px;
+    padding: 170px;
+    position: absolute;
+    left: 700px;
+    top: -20px;
+    animation: 1.5s ease-in-out 1s infinite c4 alternate;
+}
+@keyframes c4 {
+    from {
+        left: 600px;
+    }
+
+    to {
+        left: 565px;
+    }
+}
+.cloud5 {
+    display: inline;
+    height: 75px;
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    left: 200px;
+    animation: 1.5s ease-in-out 1s infinite c5 alternate;
+}
+
+@keyframes c5 {
+    from {
+        left: 280px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+.crop1{
+    position: absolute;
+    width: 300px;
+    padding: 80px;
+    left: 50px;
+}
+/* .p1{
+    position:absolute;
+    width: 150px;
+} */
+.slide{
+    width: 245px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 0 px 0px 20px 5px black;
+    overflow: hidden;
+    border: 5px solid rgb(252, 250, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 148.5px;
+    top: 285px;
+}
+.slide figure img{
+    width: 20%;
+    height: 350px;
+    float: left;
+}
+.slide figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: kru 15s infinite;
+}
+@keyframes kru {
+    0% {left: 0%}
+    15%{left: 0%}
+    20%{left: -100%}
+    35%{left: -100%}
+    40%{left: -200%}
+    60%{left: -200%}
+    65%{left: -300%}
+    80%{left: -300%}
+    85%{left: -400%}
+    100%{left: -400%}
+}
+
+.slide2{
+    width: 475px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 0 px 0px 20px 5px black;
+    overflow: hidden;
+    border: 5px solid rgb(252, 250, 255);
+    border-radius: 10px;
+    position: absolute;
+    left: 980px;
+    top: 280px;
+}
+.slide2 figure img{
+    width: 20%;
+    height: 350px;
+    float: left;
+}
+.slide2 figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: new 10s infinite;
+}
+@keyframes new {
+    0% {left: 0%}
+    15%{left: 0%}
+    20%{left: -100%}
+    35%{left: -100%}
+    40%{left: -200%}
+    60%{left: -200%}
+    65%{left: -300%}
+    80%{left: -300%}
+    85%{left: -400%}
+    100%{left: -400%}
+}
+.pr{
+    position: absolute;
+    width: 200px;
+    left: 900px;
+    top: 100px;
+}
+.fr{
+    position: absolute;
+    width: 200px;
+    left: 1100px;
+    top: 100px;
+}
+.cr{
+    position: absolute;
+    width: 200px;
+    left: 1300px;
+    top: 100px;
+}
+.kaoe{
+    position: relative;
+    width: 200px;
+    left: 600px; top: 305px;
+}
+.kone{
+    position: relative;
+    width: 50px;left: 570px;top: 165px;
+}
+.ig{
+    position: relative;
+    width: 50px;
+    left: 520px;
+    top:101px;
+}
+.ya{
+    width: 100%;
+    position: absolute;
+    top: 587px;
+}
+.fb{
+    position: relative;
+    width: 50px;
+    left: 471px;
+    top:24.5px;
+}
+/* .pic{
+    position: relative;
+    width: 50px;
+    left: 471px;
+    top:24.5px;
+} */
+.picpro{
+    position: relative;
+    width: 250px;
+    left: 20px;
+}
+.de{
+    position: absolute;
+    width: 500px;
+    top: 150px;
+    left: 200px;
+}
+.s{
+    position: absolute;
+    width: 145px;
+    top: 150px;
+    left: 520px;
+}
+.tree{
+    position: absolute;
+    width: 300px;
+    top: 425px;
+}
+.car{
+    width: 500px;
+    position: absolute;
+    top: 470px;
+}
+.cer1{
+    position: absolute;
+    width: 500px;
+    top: 120px;
+    left: 4%;
+}
+.cer2{
+    position: absolute;
+    width: 500px;
+    top: 120px;
+    left: 35%;
+}
+.cer3{
+    position: absolute;
+    width: 500px;
+    top: 120px;
+    left: 65%;
+}
+.rouw{
+    position: absolute;
+    width: 650px;
+    top: 600px;
+    left: 58%;
+}
+.moi{
+    position: absolute;
+    width: 300px;
+    top: 120px;
+    left: 11%;
+}
+.moi1{
+    position: absolute;
+    width: 400px;
+    top: 200px;
+    left: 7%;
+}
+.moi2{
+    position: absolute;
+    width:1000px;
+    top: 120px;
+    left: 500px;
+}
